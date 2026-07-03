@@ -1,0 +1,32 @@
+digitalWrite(redLed, LOW);
+  digitalWrite(yellowLed, LOW);
+  digitalWrite(greenLed, HIGH);
+
+  delay(5000);
+}
+void loop()
+{
+  //RED ON
+
+  digitalWrite(redLed, HIGH);
+  digitalWrite(yellowLed, LOW);
+  digitalWrite(greenLed, LOW);
+
+  delay(5000);
+
+  //YELLOW ON
+
+  digitalWrite(redLed, LOW);
+  digitalWrite(yellowLed, HIGH);
+  digitalWrite(greenLed, LOW);
+
+  delay(2000);
+
+  //GREEN ON
+
+  digitalWrite(redLed, LOW);
+  digitalWrite(yellowLed, LOW);
+  digitalWrite(greenLed, HIGH);
+
+  delay(5000);
+}
